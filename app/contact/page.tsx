@@ -82,6 +82,32 @@ export default function Contact() {
             <p>TikTok: @sheissyha</p>
             <p>Instagram: @kuphicoffee_</p>
           </div>
+
+          {/* Grab order link */}
+          <div className="mt-4">
+            <a
+              href="https://r.grab.com/g/2-1-6-C7T2JPDHEKTADA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#6b3a2a] hover:opacity-90 text-amber-50 px-3 py-2 rounded-lg"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Grab_logo.png"
+                alt="Grab"
+                className="h-6 w-auto"
+              />
+              <span className="font-open-sans font-semibold text-sm">Pesan di Grab</span>
+            </a>
+          </div>
+
+        </div>
+
+        {/* Location */}
+        <div className="mt-8 text-center">
+          <h2 className="font-playfair text-2xl text-amber-900 mb-4">Lokasi</h2>
+          <p className="font-open-sans text-amber-900">
+            Jl Gading 9 No 12, Komplek TNI AL Kelapa Gading Barat
+          </p>
         </div>
       </section>
     </main>

@@ -80,6 +80,12 @@ export default function Menu() {
               >
                 {/* Menu Item Image */}
                 <div className="relative h-64 overflow-hidden bg-amber-100">
+                  {/* Best Seller badge for Sweet Bliss */}
+                  {item.name === "Sweet Bliss" && (
+                    <span className="absolute top-3 left-3 bg-[#6b3a2a] text-amber-50 px-2 py-1 text-[10px] sm:text-xs font-semibold rounded-full z-10">
+                      Best Seller
+                    </span>
+                  )}
                   <img
                     src={item.image || "/placeholder.svg"}
                     alt={item.name}

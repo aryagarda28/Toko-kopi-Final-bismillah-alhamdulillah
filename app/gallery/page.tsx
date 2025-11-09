@@ -2,14 +2,11 @@ import Image from "next/image"
 
 export default function Gallery() {
   const images = [
-    {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-lyG0vluVarVWf2Ee5N48UynXZAaPEF.jpg",
-      alt: "Kuphicoffee Logo",
-    },
-    {
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/coffee-qDDnjyQFqu4EU5aJnd5hbDOH3jb5oS.jpg",
-      alt: "Coffee Beans",
-    },
+    { src: "/gallery-1.jpg", alt: "Kuphi - image 1" },
+    { src: "/gallery-2.jpg", alt: "Kuphi - image 2" },
+    { src: "/gallery-3.jpg", alt: "Kuphi - image 3" },
+    { src: "/gallery-4.jpg", alt: "Kuphi - image 4" },
+    { src: "/gallery-5.jpg", alt: "Kuphi - image 5" },
   ]
 
   return (
