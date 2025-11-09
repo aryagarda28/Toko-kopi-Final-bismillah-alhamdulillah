@@ -43,30 +43,7 @@ export default function Footer() {
           />
         </a>
 
-        {/* WhatsApp (placeholder number) */}
-        <a
-          href="https://wa.me/6281234567890"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-emerald-600 hover:opacity-90 transition-colors"
-          aria-label="WhatsApp"
-        >
-          <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20.52 3.48A11.88 11.88 0 0 0 12 0C5.373 0 .02 5.373.02 12c0 2.116.553 4.188 1.602 6.013L0 24l6.24-1.618A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.204-1.253-6.204-3.48-8.52zM12 21.5c-1.07 0-2.117-.18-3.09-.52l-.22-.08-3.72.97.99-3.62-.07-.24A9.5 9.5 0 1 1 21.5 12 9.5 9.5 0 0 1 12 21.5z" />
-            <path d="M17.1 14.1c-.29-.15-1.72-.85-1.98-.95-.26-.11-.45-.16-.64.16-.19.33-.73.95-.9 1.15-.17.19-.33.21-.62.07-.29-.13-1.22-.45-2.32-1.43-.86-.76-1.44-1.69-1.61-1.98-.17-.29-.02-.45.13-.6.13-.13.29-.33.43-.5.14-.17.19-.28.29-.47.1-.19.05-.36-.02-.5-.07-.13-.64-1.54-.88-2.12-.23-.56-.47-.48-.64-.49l-.54-.01c-.18 0-.47.07-.72.34-.25.26-.96.94-.96 2.28 0 1.34.98 2.64 1.12 2.82.14.19 1.94 2.96 4.7 4.04 1.02.44 1.81.7 2.43.9.97.3 1.86.26 2.56.16.78-.11 1.72-.7 1.97-1.38.25-.68.25-1.26.18-1.38-.07-.12-.26-.19-.55-.34z" fill="#fff"/>
-          </svg>
-        </a>
-
-        {/* Email (placeholder) */}
-        <a
-          href="mailto:info@kuphicoffee.com"
-          className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-amber-800 hover:bg-amber-700 transition-colors"
-          aria-label="Email"
-        >
-          <svg className="w-6 h-6 text-amber-100" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 13.065L.002 4.5V20a2 2 0 0 0 2 2h19.996a2 2 0 0 0 2-2V4.5L12 13.065zM12 10.5L24 2H0l12 8.5z" />
-          </svg>
-        </a>
+        {/* removed WhatsApp and Email per request; only social + Grab remain */}
       </div>
 
       <p className="text-amber-100 font-open-sans text-sm">© 2025 Coffee House. All rights reserved.</p>
