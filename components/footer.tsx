@@ -37,7 +37,7 @@ export default function Footer() {
           aria-label="Grab"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Grab_logo.png"
+            src="/grab-logo.png"
             alt="Grab"
             className="h-6 w-auto"
           />
